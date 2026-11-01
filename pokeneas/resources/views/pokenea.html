@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokeneas</title>
+</head>
+<body>
+    <img id="image" width="300">
+
+    <p id="phrase"></p>
+
+    <p id="container"></p>
+
+    <script>
+        fetch("/api/pokenea")
+            .then(response => response.json())
+            .then(pokenea => {
+                document.getElementById("image").src = pokenea.imageUrl;
+                document.getElementById("phrase").textContent = pokenea.philosophicalPhrase;
+                document.getElementById("container").textContent = pokenea.containerId;
+            });
+    </script>
+
+</body>
+</html>
