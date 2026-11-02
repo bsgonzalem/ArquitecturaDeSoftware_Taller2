@@ -4,7 +4,7 @@ const pokeneas = [
         name: "grANdeza",
         height: 1.82,
         ability: "Hoja afilada: lanza decenas de hojas cargadas de energía que cortan todo a su paso.",
-        imageUrl: null,
+        imageUrl: "https://storage.googleapis.com/pokeneas-taller2026/001.png",
         philosophicalPhrase: "El verdadero valor de una persona se demuestra cuando nadie está mirando."
     },
     {
@@ -12,7 +12,7 @@ const pokeneas = [
         name: "DIMinuto",
         height: 1.79,
         ability: "Lanzallamas: expulsa una poderosa llamarada que envuelve a sus enemigos en fuego.",
-        imageUrl: null,
+        imageUrl: "https://storage.googleapis.com/pokeneas-taller2026/004.png",
         philosophicalPhrase: "A veces, perder el rumbo es la única forma de descubrir un camino nuevo."
     },
     {
@@ -20,7 +20,7 @@ const pokeneas = [
         name: "Frijolado",
         height: 1.15,
         ability: "Terremoto: golpea el suelo con tanta fuerza que provoca ondas sísmicas a su alrededor.",
-        imageUrl: null,
+        imageUrl: "https://storage.googleapis.com/pokeneas-taller2026/007.png",
         philosophicalPhrase: "No todo lo que brilla tiene luz propia."
     },
     {
@@ -28,7 +28,7 @@ const pokeneas = [
         name: "Ponchado",
         height: 1.75,
         ability: "Psíquico: utiliza ondas mentales para levantar objetos, confundir rivales y anticipar movimientos.",
-        imageUrl: null,
+        imageUrl: "https://storage.googleapis.com/pokeneas-taller2026/009.png",
         philosophicalPhrase: "La curiosidad es el comienzo de todas las grandes revoluciones."
     },
     {
@@ -36,7 +36,7 @@ const pokeneas = [
         name: "VictorInfante",
         height: 2.10,
         ability: "Impactrueno: libera una descarga eléctrica capaz de paralizar a cualquier oponente.",
-        imageUrl: null,
+        imageUrl: "https://storage.googleapis.com/pokeneas-taller2026/025.png",
         philosophicalPhrase: "El tiempo no espera a nadie, pero siempre enseña a quien sabe observar."
     },
     {
@@ -44,7 +44,7 @@ const pokeneas = [
         name: "Mazamorrongo",
         height: 0.95,
         ability: "Hidrobomba: concentra agua a gran presión y dispara un potente chorro contra sus enemigos.",
-        imageUrl: null,
+        imageUrl: "https://storage.googleapis.com/pokeneas-taller2026/059.png",
         philosophicalPhrase: "Quien aprende a escuchar también aprende a comprender."
     },
     {
@@ -52,7 +52,7 @@ const pokeneas = [
         name: "Lagaña",
         height: 1.90,
         ability: "Drenadoras: lanza semillas que absorben lentamente la energía de sus adversarios.",
-        imageUrl: null,
+        imageUrl: "https://storage.googleapis.com/pokeneas-taller2026/065.png",
         philosophicalPhrase: "Las mejores respuestas aparecen cuando dejamos de buscar culpables."
     },
     {
@@ -60,7 +60,7 @@ const pokeneas = [
         name: "Balija",
         height: 1.85,
         ability: "Avalancha: invoca enormes rocas que caen desde el cielo y aplastan todo a su alrededor.",
-        imageUrl: null,
+        imageUrl: "https://storage.googleapis.com/pokeneas-taller2026/094.png",
         philosophicalPhrase: "La paciencia es una fuerza que pocos saben dominar."
     }
 ];
