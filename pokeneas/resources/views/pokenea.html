@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokeneas</title>
 </head>
 <body>
-    <img id="image" width="300">
+    <h1 id="name"></h1>
+
+    <img id="image" width="300" alt="Pokenea">
 
     <p id="phrase"></p>
 
-    <p id="container"></p>
+    <p><strong>Altura:</strong> <span id="height"></span> m</p>
+    <p><strong>Habilidad:</strong> <span id="ability"></span></p>
+
+    <p><strong>Contenedor:</strong> <span id="container"></span></p>
 
     <script>
         fetch("/api/pokenea")
             .then(response => response.json())
             .then(pokenea => {
+                document.getElementById("name").textContent = pokenea.name;
                 document.getElementById("image").src = pokenea.imageUrl;
                 document.getElementById("phrase").textContent = pokenea.philosophicalPhrase;
+                document.getElementById("height").textContent = pokenea.height;
+                document.getElementById("ability").textContent = pokenea.ability;
                 document.getElementById("container").textContent = pokenea.containerId;
+            })
+            .catch(() => {
+                document.getElementById("phrase").textContent = "No se pudo cargar el pokenea.";
             });
     </script>
-
 </body>
 </html>
